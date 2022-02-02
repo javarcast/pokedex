@@ -1,6 +1,6 @@
 # pokedex
 
-##Site
+## Site
 https://pokedex-varcast.netlify.app/
 
 ## Project setup
