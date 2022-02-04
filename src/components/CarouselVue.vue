@@ -33,7 +33,7 @@ export default {
   },
   props: {
     images: {
-      type: Array,
+      type: Object,
       required: true,
     },
   },
@@ -102,7 +102,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .carousel {
   width: 170px;
   overflow: hidden;

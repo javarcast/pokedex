@@ -34,7 +34,6 @@ export default {
     transform-style: preserve-3d;
     transition: all .5s ease;
     animation: .2s ease-in;
-    animation-fill-mode: forwards;
   }
   .card:hover > .poketop  {
     transform:  perspective(1000px) translateY(-30px);
