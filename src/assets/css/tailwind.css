@@ -16,3 +16,10 @@ html, body, #app{
 body {
   margin-bottom: 40px;
 }
+
+@font-face {
+  font-family: "cubic";
+  src: url("../font/cubic.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
