@@ -8,9 +8,8 @@
     <div class="midle w-full flex flex-wrap">
       <poke-card v-for="pokemon in pokemons" :pokemon="pokemon" :key="pokemon.name"></poke-card>
     </div>
-    <div id="scroll-trigger" class="h-40" ref="infinitescrolltrigger">
-        <i class="fas fa-spinner fa-spin"></i>
-        final
+    <div id="scroll-trigger" class="h-40 flex flex-wrap justify-center" ref="infinitescrolltrigger">
+        <loading-spinner></loading-spinner>
     </div>
   </template>
 </template>

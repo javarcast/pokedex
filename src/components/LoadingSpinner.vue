@@ -1,5 +1,7 @@
 <template>
-  <img class="h-24 rotate" src="@/assets/img/spinner.png" alt="pokeball spinner">
+  <div class="w-full flex justify-center">
+    <img class="h-24 rotate" src="@/assets/img/spinner.png" alt="pokeball spinner">
+  </div>
   <h5 class="mt-5 text-xl text-white">LOADING...</h5>
 </template>
 <script>
